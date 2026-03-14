@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>stock form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- section 1 -->
+  <div class="container-fluid bg-body-secondary-subtle">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">NyondoStock</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index-form.html">SALES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index-stock.html">STOCK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">SUPPLIER</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container my-5">
+    <div class="border border-3 p-4 mx-auto" style="max-width: 800px;">
+      <div class="border border-3 p-3 mb-3">
+        <h1 class="text-center">STOCK REGISTRATION FORM</h1>
+        <div class="row g-3">
+          <div class="col">
+            <label for="formGroupExampleInput" class="form-label">Company Name</label>
+            <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" />
+          </div>
+          <div class="col">
+            <label for="Sales date" class="form-label">Warehouse Address</label>
+
+            <input type="text" class="form-control" placeholder="" aria-label="Sales date" />
+          </div>
+          <label for="formGroupExampleInput" class="form-label">Date</label>
+          <input type="date" class="form-control" placeholder="" aria-label="Full Name" />
+        </div>
+      </div>
+      <!-- end of section 1 -->
+      <div class="border border-3 p-3 mb-3">
+        <div class="row my-3">
+          <h2 class="text-center mb-5">Item Information</h2>
+          <div class="col">
+            <label for="Sales date" class="form-label">Item Name</label>
+
+            <input type="text" class="form-control" placeholder="Enter Item Name" aria-label="Enter Item Name" />
+          </div>
+          <div class="col">
+            <label for="Sales date" class="form-label">Item Code</label>
+
+            <input type="text" class="form-control" placeholder="Enter Email" aria-label="Enter Email" />
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col">
+            <label for="formGroupExampleInput" class="form-label">Category</label>
+
+            <input type="tel" class="form-control" placeholder="Enter Phone
+                              number" aria-label="Enter Phone number" />
+          </div>
+          <div class="col">
+            <label for="formGroupExampleInput" class="form-label">Description</label>
+            <select class="form-control">
+              <option selected>
+                Choose type
+              </option>
+              <option value="wholesale">WholeSaler</option>
+              <option value="retail">Retailer</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- end of section 3 -->
+      <div class="border border-3 p-3 mb-3">
+        <div class="row my-3">
+          <h2 class="text-center mb-5">Stock Details</h2>
+          <div class="col">
+            <label for="" class="form-label">Quantity received</label>
+            <input type="text" class="form-control" placeholder="" />
+          </div>
+          <div class="col">
+            <label for="quantity" class="form-label">Unit of measure</label>
+            <input id="quantity" class="form-control" type="text" placeholder="eg kg, Ibs, ltr, mls">
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col">
+            <label for="unitprice" class="form-label">Unit Price</label>
+            <input id="unitprice" class="form-control" type="text" placeholder="">
+          </div>
+          <div class="col">
+            <label for="unitprice" class="form-label">Total value</label>
+            <input id="unitprice" class="form-control" type="text" placeholder="">
+          </div>
+        </div>
+      </div>
+      <div class="border border-3 p-3 mb-3">
+        <div class="row my-3">
+          <h2 class="text-center mb-5">Storage information</h2>
+          <div class="col">
+            <label for="" class="form-label">Storage location</label>
+            <input type="text" class="form-control" placeholder="" />
+          </div>
+          <div class="col">
+            <label for="" class="form-label">Batch number</label>
+            <input id="quantity" class="form-control" type="text" placeholder="">
+          </div>
+          <div class="col">
+            <label for="unitprice" class="form-label">Expiry date</label>
+            <input id="unitprice" class="form-control" type="date" placeholder="">
+          </div>
+        </div>
+      </div>
+      <div class="border border-3 p-3 mb-3">
+        <div class="row my-3">
+          <h2 class="text-center mb-5">Authorization</h2>
+          <div class="col">
+            <label for="" class="form-label">Registered by</label>
+            <input type="text" class="form-control" placeholder="Name & Signature" />
+          </div>
+          <div class="col">
+            <label for="" class="form-label">Verified by</label>
+            <input id="quantity" class="form-control" type="text" placeholder="Name & Signature">
+          </div>
+          <div class="col">
+            <label for="unitprice" class="form-label">Date of entry</label>
+            <input id="unitprice" class="form-control" type="date" placeholder="">
+          </div>
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col">
+          <button class="btn btn-primary" type="button">Submit</button>
+        </div>
+        <div class="col text-end">
+          <button class="btn btn-dark" type="button">Reset Form</button>
+        </div>
+      </div>
+
+      </form>
+    </div>
+  </div>
+  <!-- <h1>Hello, world!</h1> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
