@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="sales-reg.css" />
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div>
+        <a href="dashboard.html">Dashboard</a>
+      </div>
+      <div>
+        <a href="sales-reg.html">Supplier Regitration</a>
+      </div>
+      <div>
+      <a href="salesManagement.html">Sales Management</a>
+    </div>
+    </div>
+    
+    <div class="content"
+      style="border: solid 1px black; margin: 20px; padding: 20px; border-radius: 7px; margin-right: -30px; width: 40px; ">
+      <form action="">
+        <section>
+          <h1>Sales Registration</h1>
+          <div class="input-container">
+            <div class="input-section">
+              <label for="salesdate">Sales Date</label>
+              <input type="date" />
+            </div>
+            <div class="input-section">
+              <label for="salesPerson">Sales Person</label>
+              <select name="" id="">
+                <option value="">select a representative</option>
+                <option value="1">Mary Jane</option>
+                <option value="2">John Doe</option>
+              </select>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h1>Customer Details</h1>
+          <div class="input-container">
+            <div class="input-section">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Enter full Name">
+              <label for="phonenumber">Phone Number</label>
+              <input id="phonenumber" type="text" placeholder="Enter Phone Number">
+            </div>
+            <div class="input-section">
+              <label for="email">Email</label>
+              <input id="email" type="text" placeholder="Enter Email">
+              <label for="type">Type</label>
+              <select type="" id="">
+                <option>Select customer type</option>
+                <option>Retail</option>
+                <option>Wholesale</option>
+              </select>
+        </section>
+        <h1>items</h1>
+        <section  class="items" >
+
+          <div class="input-section">
+            <label for="pdt">Pdt ID</label>
+            <input id="pdt" type="text" placeholder="Pdt ID">
+          </div>
+          <div class="input-section" style="margin-left: 20px;">
+            <label for="quantity">Quantity</label>
+            <input id="quantity" type="text">
+          </div>
+          <div class="input-section" style="margin-left: 20px;">
+            <label for="unit">Unit Price</label>
+            <input id="unit" type="type">
+          </div>
+         
+
+
+        </section>
+        <section  class="items" >
+
+          <div class="input-section">
+            <label for="pdt">Pdt ID</label>
+            <input id="pdt" type="text" placeholder="Pdt ID">
+          </div>
+          <div class="input-section" style="margin-left: 20px;">
+            <label for="quantity">Quantity</label>
+            <input id="quantity" type="text">
+          </div>
+          <div class="input-section" style="margin-left: 20px;">
+            <label for="unit">Unit Price</label>
+            <input id="unit" type="type">
+          </div>
+          </section>
+          <section class="tree">
+          <button>Cancel</button>
+          <button style="background-color: blue;">Submit</button>
+          </section>
+      </form>
+    </div>
+  </div>
+
+
+</body>
